@@ -1,0 +1,29 @@
+{
+  "name": "docker-workshop",
+  "version": "1.0.0",
+  "description": "Docker workshop demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DylanBulmer/Docker-Workshop.git"
+  },
+  "keywords": [
+    "Docker",
+    "Node",
+    "Express"
+  ],
+  "author": "Dylan Bulmer <dylan.bulmer@maine.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DylanBulmer/Docker-Workshop/issues"
+  },
+  "homepage": "https://github.com/DylanBulmer/Docker-Workshop#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
